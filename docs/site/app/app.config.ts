@@ -21,7 +21,7 @@ export default defineAppConfig({
     links: [
       {
         'icon': 'i-simple-icons-github',
-        'to': 'https://github.com/khwstolle/ptwm',
+        'to': 'https://github.com/tensor-compress/ptwm',
         'target': '_blank',
         'aria-label': 'GitHub',
       },
@@ -33,7 +33,7 @@ export default defineAppConfig({
     links: [
       {
         'icon': 'i-simple-icons-github',
-        'to': 'https://github.com/khwstolle/ptwm',
+        'to': 'https://github.com/tensor-compress/ptwm',
         'target': '_blank',
         'aria-label': 'PTWM on GitHub',
       },
@@ -43,12 +43,12 @@ export default defineAppConfig({
     title: 'On this page',
     bottom: {
       title: 'Project',
-      edit: 'https://github.com/khwstolle/ptwm/edit/master/docs/site/content',
+      edit: 'https://github.com/tensor-compress/ptwm/edit/master/docs/site/content',
       links: [
         {
           icon: 'i-lucide-star',
           label: 'Star on GitHub',
-          to: 'https://github.com/khwstolle/ptwm',
+          to: 'https://github.com/tensor-compress/ptwm',
           target: '_blank',
         },
         {

@@ -31,7 +31,7 @@ icon: i-simple-icons-github
 color: neutral
 variant: outline
 size: xl
-to: https://github.com/khwstolle/ptwm
+to: https://github.com/tensor-compress/ptwm
 target: _blank
 ---
 GitHub
@@ -199,7 +199,7 @@ links:
     to: /quickstart
     trailingIcon: i-lucide-arrow-right
   - label: View on GitHub
-    to: https://github.com/khwstolle/ptwm
+    to: https://github.com/tensor-compress/ptwm
     target: _blank
     variant: subtle
     icon: i-simple-icons-github

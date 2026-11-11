@@ -7,7 +7,7 @@ version = "1.1.0"
 edition = "2024"
 rust-version = "1.87"
 license = "MIT"
-repository = "https://github.com/khwstolle/ptwm"
+repository = "https://github.com/tensor-compress/ptwm"
 
 [workspace.dependencies]
 rayon = "1.10"

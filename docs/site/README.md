@@ -14,7 +14,6 @@ docs/site/
   scripts/       Python + Rust extractors and the normalizer
   .docgen/       (gitignored) JSON dumps from griffe and rustdoc
   .output/       (gitignored) Nuxt build output, deployed to GitHub Pages
-  public/CNAME   Custom domain (ptwm.khws.io) for the Pages deploy
 ```
 
 The cohesion guarantee: both Python (Griffe) and Rust (`cargo rustdoc
@@ -108,9 +107,6 @@ pnpm run preview
 `master` builds and publishes; a pull request only runs the build to
 verify the site compiles — GitHub Pages has no per-PR preview
 environment, so there's no live preview URL for PRs.
-
-The custom domain (`ptwm.khws.io`) is set via `public/CNAME`, which
-Nuxt copies verbatim into `.output/public/CNAME`.
 
 ## Authoring conventions
 

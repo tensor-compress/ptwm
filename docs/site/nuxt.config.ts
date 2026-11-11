@@ -1,5 +1,5 @@
-const repoUrl = 'https://github.com/khwstolle/ptwm'
-const siteUrl = process.env.NUXT_PUBLIC_SITE_URL ?? 'https://ptwm.khws.io'
+const repoUrl = 'https://github.com/tensor-compress/ptwm'
+const siteUrl = process.env.NUXT_PUBLIC_SITE_URL ?? 'https://tensor-compress.github.io/ptwm'
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-01',
@@ -21,6 +21,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   app: {
+    baseURL: process.env.NUXT_APP_BASE_URL ?? '/ptwm/',
     head: {
       htmlAttrs: { lang: 'en' },
       meta: [

@@ -3,8 +3,8 @@
 [![PyPI](https://img.shields.io/pypi/v/ptwm.svg)](https://pypi.org/project/ptwm/)
 [![Python](https://img.shields.io/pypi/pyversions/ptwm.svg)](https://pypi.org/project/ptwm/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI](https://github.com/khwstolle/ptwm/actions/workflows/python-tests.yml/badge.svg)](https://github.com/khwstolle/ptwm/actions/workflows/python-tests.yml)
-[![Docs](https://github.com/khwstolle/ptwm/actions/workflows/docs.yml/badge.svg)](https://github.com/khwstolle/ptwm/actions/workflows/docs.yml)
+[![CI](https://github.com/tensor-compress/ptwm/actions/workflows/python-tests.yml/badge.svg)](https://github.com/tensor-compress/ptwm/actions/workflows/python-tests.yml)
+[![Docs](https://github.com/tensor-compress/ptwm/actions/workflows/docs.yml/badge.svg)](https://github.com/tensor-compress/ptwm/actions/workflows/docs.yml)
 
 A lossless compression library for PyTorch model weights. PTWM
 exploits the byte-level structure of IEEE 754 floats and the layout of
@@ -17,7 +17,7 @@ random-access lookup, hash-verified payloads, and per-tensor codec
 dispatch.
 
 Full documentation, benchmarks, and the API reference live at
-**[ptwm.khws.io](https://ptwm.khws.io)**.
+**[tensor-compress.github.io/ptwm](https://tensor-compress.github.io/ptwm/)**.
 
 ## What this library does and does not do
 
@@ -377,7 +377,7 @@ ptwm bench attribute model.bin --leave-one-out --out attr-out/
   model.
 - **`docs/benchmarks/`**: benchmark results and per-feature CSVs.
 - **`docs/site/`**: the Nuxt-based documentation site deployed at
-  [ptwm.khws.io](https://ptwm.khws.io).
+  [tensor-compress.github.io/ptwm](https://tensor-compress.github.io/ptwm/).
 - **`tests/`**: the pytest suite.
 - **`benchmarks/`**: manual performance and validation harnesses.
 - **`scripts/`**: small maintenance/CI utility scripts.

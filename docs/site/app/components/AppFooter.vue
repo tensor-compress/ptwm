@@ -29,11 +29,11 @@ const columns = [{
   label: 'Community & Project',
   children: [{
     label: 'GitHub Repository',
-    to: 'https://github.com/khwstolle/ptwm',
+    to: 'https://github.com/tensor-compress/ptwm',
     target: '_blank'
   }, {
     label: 'Issue Tracker',
-    to: 'https://github.com/khwstolle/ptwm/issues',
+    to: 'https://github.com/tensor-compress/ptwm/issues',
     target: '_blank'
   }, {
     label: 'PyPI Package',

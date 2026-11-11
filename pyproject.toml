@@ -49,10 +49,10 @@ webdataset = ["webdataset>=0.2"]
 ext-dev = ["blake3>=0.4", "wasmtime>=26", "zstandard>=0.22"]
 
 [project.urls]
-Homepage = "https://ptwm.khws.io"
-Documentation = "https://ptwm.khws.io"
-Repository = "https://github.com/khwstolle/ptwm"
-Issues = "https://github.com/khwstolle/ptwm/issues"
+Homepage = "https://tensor-compress.github.io/ptwm/"
+Documentation = "https://tensor-compress.github.io/ptwm/"
+Repository = "https://github.com/tensor-compress/ptwm"
+Issues = "https://github.com/tensor-compress/ptwm/issues"
 
 [build-system]
 requires = ["maturin>=1.7,<2.0"]
